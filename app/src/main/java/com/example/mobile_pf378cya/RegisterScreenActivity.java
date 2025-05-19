@@ -38,6 +38,7 @@ public class RegisterScreenActivity extends AppCompatActivity {
         EditText txtFullName = findViewById(R.id.fullNameTxtRegister);
         EditText txtPhoneNumber = findViewById(R.id.phoneNumberTxtRegister);
         Button btnRegister = findViewById(R.id.btnRegister);
+        
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
